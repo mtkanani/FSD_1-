@@ -56,9 +56,35 @@ the space between a table cell's border and the content present-cellpadding
 <div style='background-color:orange;height:100px' align='center'></div> for color line
 <span  style='color:purple;background-color:rgb(156,78,152)'>R</span> for perticular word ya to letter numbers of span working in a single line
 
+*****FOR FORM*****
+<form method='get' action='test.html' target='_blank'>
+<!--form tag => attribute=action(whAT can we do after submit),method:get/post,enctype:post(optional)-->
+<legend align='center'>Sign-Up</legend>
+<label>
+Password:
+<input type='password' name='pass' placeholder='Enter Password'/>
+Address:
+<textarea rows='10' cols='40' name='address'></textarea>
+</label>
 <input type="radio" name="gen" value="male">Male</input>
- <select>
-    <option disabled>--select state--</option>
-    <optgroup label="us">
-    <option>us-1</option>
+ <<select>
+<option disabled>--Select Department--</option><!--disabled is use to not choos that option-->
+<option>CSE</option><!--for defoult option we use selected,for hide in dropdownmanu hidden-->
+<option>CEA</option>
+
+<option disabled>--Select Department--</option><!--disabled is use to not choos that option-->
+<optgroup label='Computer'><!-- lable is must in this-->
+<option>CSE</option>
+
+Uplode CV:
+<input type='file' name='cv.file'  /><!-- multipal for choos multipal file-->
 <label>Children</label><input type="checkbox" name="child value="">
+
+Prise
+<input type='range' name='prise' min=0 max=50/>
+
+<input type='image' src='first.png'/><!-- defoult type(onclick)=submit-->
+
+<input type='button' value='submit'/><br>
+<input type='submit' name='submit'/>
+<input type='reset' name='reset'/>
