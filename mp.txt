@@ -54,3 +54,10 @@ order list <ol> <li></li> </ol>
 <tr>
 <div style='background-color:orange;height:100px' align='center'></div> for color line
 <span  style='color:purple;background-color:rgb(156,78,152)'>R</span> for perticular word ya to letter numbers of span working in a single line
+
+<input type="radio" name="gen" value="male">Male</input>
+ <select>
+    <option disabled>--select state--</option>
+    <optgroup label="us">
+    <option>us-1</option>
+<label>Children</label><input type="checkbox" name="child value="">
