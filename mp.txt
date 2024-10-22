@@ -1,0 +1,56 @@
+<html></html>
+<head></head>
+<title></title>
+<body>
+<h1></h1>
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6>
+<p></p>
+<pre></pre>//as it is
+<b></b>,<strong></strong> both are same 
+ <i></i>,<em></em> both are same 
+<font attribute="value"> content </font>//size,color
+<u></u>
+<hr size="20" width="50%" align="left">
+<hr size="10" width="40%"> 
+<hr size="2">
+<br>
+ <center> this is center text</center>
+ log X<sup>2</sup>
+<p>co<sub>2</sub> </p>
+<del></del> <ins></ins> both are use  with one place if use ins then underline new text
+<mark> </mark> for highlited text
+<big></big>
+<small></small>
+<a href="a1.html" target="_blank"> click here </a>///_blank for new page
+<a href="a1.html" target="_self"> clicl here </a>///_self for these page
+<a name="test"></a>
+<a href="#test" > Scroll to top</a>// for go to bottom to top
+<img src="1.png" alt="not found" border="5px" align="top" >
+<ul type="square"> <!--by default disc-->
+unorder list<ul> <li></li> </ul>
+<ol reversed type="1" start="4"> <!-- by default numbers-->
+order list <ol> <li></li> </ol>
+<dl>//defination list
+<dt> html </dt>//defination term
+<dd>defination</dd>//defination details
+</dl>//
+
+<table border="1" align="center" bgcolor="yellow" cellspacing="0" cellpadding="2" rules="all">
+<caption>student list of b7</caption>
+<tr>//for table row
+<th> name</th> for table header
+<th> roll no</th>
+<th> batch</th>
+</tr>
+<tr>
+<td> mt</td>//for table column
+<td> 217</td>
+<td> b7</td>
+</tr>
+<tr>
+<div style='background-color:orange;height:100px' align='center'></div> for color line
+<span  style='color:purple;background-color:rgb(156,78,152)'>R</span> for perticular word ya to letter numbers of span working in a single line
