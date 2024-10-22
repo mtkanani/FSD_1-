@@ -40,7 +40,7 @@ order list <ol> <li></li> </ol>
 </dl>//
 
 <table border="1" align="center" bgcolor="yellow" cellspacing="0" cellpadding="2" rules="all">
-<caption>student list of b7</caption>
+<caption>student list of b7</caption> for table title
 <tr>//for table row
 <th> name</th> for table header
 <th> roll no</th>
@@ -51,6 +51,7 @@ order list <ol> <li></li> </ol>
 <td> 217</td>
 <td> b7</td>
 </tr>
+the space between a table cell's border and the content present-cellpadding
 <tr>
 <div style='background-color:orange;height:100px' align='center'></div> for color line
 <span  style='color:purple;background-color:rgb(156,78,152)'>R</span> for perticular word ya to letter numbers of span working in a single line
