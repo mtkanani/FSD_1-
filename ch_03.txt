@@ -21,3 +21,9 @@ stroke="purple" stroke-width="3" fill="pink" fill-rule="evenodd" />
 </svg>
     <canvas id="c1" width="500" height="500" style="border:2px solid black"></canvas> 
 svg and canvas same and use for border
+
+<img src="test.jpg" usemap="#image-map">
+<map name="image-map">
+<area target="_blank" alt="laptop" title="laptop" href="" coords="0,3,339,523"
+shape="rect">
+</map>
