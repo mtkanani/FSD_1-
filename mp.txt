@@ -56,6 +56,11 @@ the space between a table cell's border and the content present-cellpadding
 <div style='background-color:orange;height:100px' align='center'></div> for color line
 <span  style='color:purple;background-color:rgb(156,78,152)'>R</span> for perticular word ya to letter numbers of span working in a single line
 
+select
+option 
+  optgroup label
+     option value
+
 *****FOR FORM*****
 <form method='get' action='test.html' target='_blank'>
 <!--form tag => attribute=action(whAT can we do after submit),method:get/post,enctype:post(optional)-->
